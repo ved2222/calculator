@@ -1,0 +1,129 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-image: url("calcbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.outer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.divc
+{
+    background-color: rgb(226, 242, 255);
+    margin: 5px; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.divac
+{
+    background-color: rgb(226, 242, 255);
+    margin: 5px; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.divdc
+{
+    background-color: rgb(226, 242, 255);
+    margin: 5px; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.divrdc
+{
+    background-color: rgb(226, 242, 255);
+    margin: 5px; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.diveqc
+{
+    background-color: rgb(226, 242, 255);
+    margin: 5px; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.diveqc:hover
+{
+    background-color: rgb(190, 191, 192);
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+
+.divc:hover
+{
+    background-color: rgb(190, 191, 192);
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+
+.divac:hover
+{
+    background-color: rgb(190, 191, 192);
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+
+.divrdc:hover
+{
+    background-color: rgb(190, 191, 192);
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+
+.divdc:hover
+{
+    background-color: rgb(190, 191, 192);
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+
+.divmc
+{
+    background-color: rgb(125, 190, 255);
+    margin: 8px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center; 
+    font-size: 2rem;
+    height:70px;
+    border-radius: 15px;
+    
+}
+
+
+
+.sqr_sqrt
+{
+    font-size: 1rem;
+    position: relative;
+    left: 90%;
+    bottom:25%;
+}
